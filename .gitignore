@@ -1,0 +1,7 @@
+*.elf
+*.o
+*.prg
+*.nt
+*.fds
+fdspacker
+vectors.bin

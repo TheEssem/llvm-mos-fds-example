@@ -1,0 +1,57 @@
+{
+  "sides": [
+    {
+      "licensee_code": "$00",
+      "game_name": "FMS",
+      "game_type": " ",
+      "game_version": "0",
+      "disk_side": "A",
+      "disk_number": "0",
+      "disk_type": "FMS",
+      "boot_file": "6",
+      "manufacturing_date": "2024-11-10",
+      "country_code": "Japan",
+      "rewritten_date": "2024-11-10",
+      "disk_writer_serial_number": "$FFFF",
+      "disk_rewrite_count": "0",
+      "actual_disk_side": "A",
+      "disk_type_other": "YellowDisk",
+      "disk_version": "$00",
+      "file_amount": 5,
+      "files": [
+        {
+          "file_number": "0",
+          "file_indicate_code": "0",
+          "file_name": "PRG",
+          "file_address": "$6000",
+          "file_kind": "Program",
+          "data": "main.prg"
+        },
+        {
+          "file_number": "1",
+          "file_indicate_code": "1",
+          "file_name": "VEC",
+          "file_address": "$dff6",
+          "file_kind": "Program",
+          "data": "vectors.bin"
+        },
+        {
+          "file_number": "2",
+          "file_indicate_code": "2",
+          "file_name": "CHR",
+          "file_address": "$0000",
+          "file_kind": "Character",
+          "data": "Alpha.chr"
+        },
+        {
+          "file_number": "3",
+          "file_indicate_code": "3",
+          "file_name": "LOL",
+          "file_address": "$2000",
+          "file_kind": "Program",
+          "data": "bypass.prg"
+        }
+      ]
+    }
+  ]
+}
