@@ -1,6 +1,6 @@
 *.elf
 *.o
-*.prg
+main.prg
 *.nt
 *.fds
 fdspacker
