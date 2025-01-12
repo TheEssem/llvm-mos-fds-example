@@ -5,7 +5,7 @@ ASSERT(__rc0 == 0x10, "Inconsistent zero page map.")
 ASSERT(__rc31 == 0x2f, "Inconsistent zero page map.")
 
 MEMORY {
-    zp : ORIGIN = __rc31 + 1, LENGTH = 0x100 - (__rc31 + 1)
+    zp : ORIGIN = __rc31 + 1, LENGTH = 0xE0 - (__rc31 + 1)
     ram (rw) : ORIGIN = 0x6000, LENGTH = 0x7ff6
 }
 
